@@ -10,7 +10,7 @@ var siteName = document.getElementById("siteName"),
       deleteBtn = document.getElementById("deleteBtn"),
 
       siteNameRegex = /^[A-z-\s0-9]{3,50}$/,
-      siteUrlRegex = /[a-z0-9-\.]+\.[a-z]{2,4}\/?([^\s<>\#%"\,\{\}\\|\\\^\[\]`]+)?$/
+      siteUrlRegex = /^(ftp|http|https):\/\/[^ "]+$/
 
 var webSiteList = []; //* ### declar array ###
 var indexUpdate;     //* ### declare variable to get index ###
