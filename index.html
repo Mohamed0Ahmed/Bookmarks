@@ -50,7 +50,7 @@
             </p>
             <p class="pt-3 fw-bold">Site URL must be a valid one .</p>
           </span>
-          <span class="">
+          <span>
             <img src="images/Screenshot 2023-12-14 130833.png" alt="ay haga"
           /></span>
         </div>
@@ -112,7 +112,7 @@
                   id="updateBtn"
                   onclick="doneUpdate()"
                 >
-                  Done
+                  Update
                 </button>
               </div>
               <div class="search col-md-6 offset-md-5">
@@ -121,10 +121,19 @@
                   oninput="searchWebsite()"
                   id="searchInput"
                   class="form-control my-3"
-                  placeholder=" search your website"
+                  placeholder=" Search By Name"
                   type="text"
                 />
               </div>
+            </div>
+            <div class="d-flex justify-content-end">
+              <button
+                class="btn btn-success d-none"
+                onclick="undoDelete()"
+                id="deleteBtn"
+              >
+                Undo <i class="fa-solid fa-rotate-left"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -140,7 +149,7 @@
                 <th>Delete</th>
               </tr>
             </thead>
-            <tbody id="tableBody"></tbody>
+            <tbody id="tableBody" class="tabll"></tbody>
           </table>
         </div>
       </div>

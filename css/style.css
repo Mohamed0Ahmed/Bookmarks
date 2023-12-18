@@ -169,6 +169,10 @@ p {
     box-shadow: 0 0 0 0.25rem rgba(241, 0, 0, 0.25) !important;
     border-color: #ff0000;
   }
+  .container .tabll span{
+    background-color: yellow;
+    font-weight: 800;
+  }
   .container .heading .btn-outline-danger {
     padding: 10px 40px;
     --bs-btn-color: #86fe86;
