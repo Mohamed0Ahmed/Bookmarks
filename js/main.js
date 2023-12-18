@@ -87,6 +87,7 @@ function deleteSite(index) {
 function undoDelete() {
       var z = deletedItem[0]; //* declare deleted item ###
       webSiteList.push(z);    //* push it to original array ###
+      localStorage.setItem("sites", JSON.stringify(webSiteList)); // *  add to loacal storage
       displayData();          //* display with removed item again ###
       deleteBtn.classList.add("d-none"); //* add clas to hide undo button ###
 }
