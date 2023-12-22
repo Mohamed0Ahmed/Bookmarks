@@ -164,6 +164,9 @@ p {
     box-shadow: 0 0 0 0.25rem rgba(63, 156, 91, 0.25) !important;
     border-color: #86fe86;
   }
+  .container th {
+    font-size: 14px;
+  }
   .container .is-invalid:focus {
     -webkit-box-shadow: 0 0 0 0.25rem rgba(241, 0, 0, 0.25) !important;
     box-shadow: 0 0 0 0.25rem rgba(241, 0, 0, 0.25) !important;
@@ -188,7 +191,7 @@ p {
     border-radius: 10px;
     background-color: #d9d7d8;
     height: 250px;
-    width: 450px;
+    width: 380px;
     position: absolute;
     top: 50%;
     left: 50%;
